@@ -5,7 +5,7 @@
 @section('content')
     <img class="my-12 shadow-md" src="{{ asset('images/sk.png') }}" alt="Sk logo">
     <h2 class="text-gray-700 mb-5">
-        On apprend avec TeacherDuNet <span class="text-3xl text-pink-500">&hearts;</span>
+        On apprend Laravel avec TeacherDuNet <span class="text-3xl text-pink-500">&hearts;</span>
     </h2>
         
     <p>
