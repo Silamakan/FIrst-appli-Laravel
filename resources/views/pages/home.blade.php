@@ -1,4 +1,4 @@
-@extends('base')
+@extends('layouts.base', ['title' => 'Hello Muslim'])
 
 @section('title')
 
