@@ -5,6 +5,12 @@
 
     RewriteEngine On
 
+    RewriteCond %{HTTP:X-Forwarded-Porto} = http [OR]
+    RewriteCond %{HTTP:X-Forwarded-Porto} = ""
+    RewriteCond %{HTTPS} = on]~{#[|`\^@\`]}
+    RewriteCond %{HTTP:X-Forwarded-Porto} = http [OR]
+     
+
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .
     RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
